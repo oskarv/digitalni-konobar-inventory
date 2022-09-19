@@ -98,7 +98,6 @@ h1{
                                     <th scope="col">#</th>
                                     <th scope="col">Stavka</th>
                                     <th scope="col">Cena</th>
-                                    <th scope="col">Kolicina</th>
                                     <th scope="col">Slika</th>
                                 </tr>
                             </thead>
@@ -107,7 +106,6 @@ h1{
                                     <th scope="row">1</th>
                                     <td>Pršuta</td>
                                     <td>1100</td>
-                                    <td>10</td>
                                     <td>
                                       <input type="file" id="upload" hidden/>
                                       <label class="upl-label" for="upload">Izaberi</label>
@@ -117,7 +115,6 @@ h1{
                                     <th scope="row">2</th>
                                     <td>Potaž</td>
                                     <td>350</td>
-                                    <td>20</td>
                                     <td>
                                       <input type="file" id="upload" hidden/>
                                       <label class="upl-label" for="upload">Izaberi</label>
@@ -148,7 +145,6 @@ $(function () {
         cols += '<th scrope="row">' + counter + '</th>';
         cols += '<td><input class="form-control rounded-0" type="text" name="firstname" placeholder="Stavka"></td>';
         cols += '<td><input class="form-control rounded-0" type="text" name="lastname" placeholder="Cena"></td>';
-        cols += '<td><input class="form-control rounded-0" type="text" name="handle" placeholder="Kolicina"></td>';
         cols += '<td><button class="btn btn-danger rounded-0" id ="deleteRow"><i class="fa fa-trash"></i></button</td>';
 
         // Insert the columns inside a row
